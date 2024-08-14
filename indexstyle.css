@@ -1,0 +1,99 @@
+.body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+}
+.menu {
+    list-style: none;
+    display: flex; /* Organiza os itens em linha */
+    justify-content: center; /* Centraliza o menu horizontalmente */
+    padding: 10px;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #600;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: block;
+    transition: background-color 0.3s ease; /* Animação suave na mudança de cor */
+}
+.menu a:hover {
+    background-color: rgb(255, 132, 132);
+}
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.titulo h3 {
+    margin: 10px;
+    font-size: 15px;
+    color: #800000;
+}
+.titulo h2 {
+    margin: 10px;
+    font-size: 30px;
+    color: #1B0600;
+}
+
+.secao-grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr;
+    gap: 10px;
+    max-width: 1700px;
+    width: 100%;
+}
+.parte img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.parte {
+    background-color: #efebeb;
+    color: #1B0600;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding seja incluído no tamanho do item */
+}
+.parte h3 {
+    margin: 10px;
+    font-size: 20px;
+    color: #1B0600;
+}
+.parte h5 {
+    margin: 10px;
+    font-size: 13px;
+    color: #1B0600;
+}
+.parte p {
+    margin: 10px;
+    font-size: 13px;
+    color: #89898C;
+}
+.parte a {
+    margin: 10px;
+    font-size: 14px;
+    color: #600;
+}
+
+.footer p{
+    color: #600;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease; /* Animação suave na mudança de cor */
+}
