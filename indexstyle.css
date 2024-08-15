@@ -31,7 +31,7 @@
 
 .banner img {
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .body {
@@ -98,5 +98,5 @@
 
 .footer img {
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
