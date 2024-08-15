@@ -28,12 +28,6 @@
 .menu a:hover {
     background-color: rgb(255, 132, 132);
 }
-
-.banner img {
-    width: 100%;
-    object-fit: fill;
-}
-
 .body {
     font-family: Arial, sans-serif;
     background-color: #ffff;
@@ -57,7 +51,7 @@
 
 .secao-grid {
     display: grid;
-    grid-template-columns: 10fr 1fr 10fr 1fr 10fr 1fr 10fr 1fr 10fr;
+    grid-template-columns: 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr;
     gap: 10px;
     max-width: 1700px;
     width: 100%;
@@ -96,7 +90,10 @@
     color: #600;
 }
 
-.footer img {
-    width: 100%;
-    object-fit: fill;
+.footer p{
+    color: #600;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease; /* Animação suave na mudança de cor */
 }
