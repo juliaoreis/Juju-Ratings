@@ -28,6 +28,12 @@
 .menu a:hover {
     background-color: rgb(255, 132, 132);
 }
+
+.banner img {
+    width: 100%;
+    object-fit: fill;
+}
+
 .body {
     font-family: Arial, sans-serif;
     background-color: #ffff;
@@ -51,7 +57,7 @@
 
 .secao-grid {
     display: grid;
-    grid-template-columns: 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr;
+    grid-template-columns: 10fr 1fr 10fr 1fr 10fr 1fr 10fr 1fr 10fr;
     gap: 10px;
     max-width: 1700px;
     width: 100%;
@@ -81,8 +87,8 @@
 }
 .parte p {
     margin: 10px;
-    font-size: 13px;
-    color: #89898C;
+    font-size: 15px;
+    color: #1B0600;
 }
 .parte a {
     margin: 10px;
@@ -90,10 +96,7 @@
     color: #600;
 }
 
-.footer p{
-    color: #600;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    transition: background-color 0.3s ease; /* Animação suave na mudança de cor */
+.footer img {
+    width: 100%;
+    object-fit: fill;
 }
